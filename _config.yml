@@ -5,11 +5,11 @@ image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-XXXXXXXX"
 
-# UI configs
+# UI configs push
 title: "Photography by Andrew Blair"
 subtitle: "I have vision."
 author: "Andrew Blait"
-bio: "I asked my friend Mario to write a bio for me, because writing about myself isn't really cool. Mario says I'm ridiculously handsome, and that the only thing more angelic than my face are the photos that I take."
+bio: "I asked my friend Mario to write a bio for me, because writing about myself isn't really cool. Mario says I'm ridiculously handsome, and that the only thing more angelic than my face are the photos that I take. Mario says I should tell you I've been taking photos for the past 13 years, and that I'm avaiable as a freelance photographer."
 publicise: "Want a website like this for yourself for free? Just <a href=\"https://github.com/ramswaroop/photography\">fork me on github</a> ;)"
 web_design: "AJ"
 social_urls:
