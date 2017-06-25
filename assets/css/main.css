@@ -1740,6 +1740,18 @@
 
 		@media screen and (max-width: 1680px) {
 
+				#header {
+					top: 0;
+					height: 5em;
+					left: 0;
+					line-height: 4em;
+					padding: 0 1.5em;
+					position: fixed;
+					user-select: none;
+					width: 100%;
+					z-index: 10002;
+				}
+
 			#main .thumb {
 				-moz-transition-delay: 2.075s;
 				-webkit-transition-delay: 2.075s;
