@@ -1740,18 +1740,6 @@
 
 		@media screen and (max-width: 1680px) {
 
-				#header {
-					top: 0;
-					height: 5em;
-					left: 0;
-					line-height: 4em;
-					padding: 0 1.5em;
-					position: fixed;
-					user-select: none;
-					width: 100%;
-					z-index: 10002;
-				}
-
 			#main .thumb {
 				-moz-transition-delay: 2.075s;
 				-webkit-transition-delay: 2.075s;
@@ -2005,3 +1993,36 @@
 		#footer .copyright a {
 			color: inherit;
 		}
+
+/* ---------------
+   Andrew Blair 
+------------------ */
+
+/* Splash page */
+
+.splash {
+	border: 1em solid #fff;
+	background-image: url(http://placehold.it/1200x1200/000000/000000);
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+.splash span {
+	display: block;
+	text-align: right;
+	font-style: italic;
+	font-family: "Georgia", serif;
+	font-size: 24px;
+	padding: 0 1em;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -1em;
+}
