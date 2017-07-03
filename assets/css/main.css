@@ -2002,7 +2002,7 @@
 
 .splash {
 	border: 1em solid #fff;
-	background-image: url(http://placehold.it/1200x1200/000000/000000);
+	background-image: url('/images/landing-bg.png');
 	background-size: cover;
 	background-position: center center;
 	display: block;
@@ -2012,6 +2012,7 @@
   left:0;
   right:0;
   overflow:hidden;
+  text-align: center;
 }
 
 .splash span {
@@ -2025,4 +2026,57 @@
   top: 50%;
   right: 0;
   margin-top: -1em;
+}
+
+img#welcome {
+	position: absolute;
+	top: 25%;
+	left: 50px;
+	max-width: 80%;
+}
+
+img#enter {
+	position: absolute;
+	bottom: 50px;
+	left:50%;
+	margin-left: -100px;
+}
+
+@media screen and (min-width: 1280px) {
+
+	#header {
+		top: 0;
+		height: 100%;
+		width: 200px;
+		-moz-transition: none;
+		-webkit-transition: none;
+		-ms-transition: none;
+		transition: none;
+		transform: none;
+	}
+
+	#main {
+		margin-left: 200px;
+	}
+
+	#header nav {
+		bottom: 0;
+		top: auto;
+		left: 0;
+	}
+
+	#header nav > ul > li a {
+		padding: 0 1em;
+		width: 100%;
+	}
+
+	.panel {
+		bottom: 0;
+	}
+
+	.panel .inner {
+		padding-left: 200px;
+	}
+	}
+
 }
