@@ -445,7 +445,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #47c5ab;
+				background-color: rgba(150,25,25,1);;
 				color: #ffffff !important;
 			}
 
@@ -454,7 +454,7 @@
 				input[type="button"].special:hover:active,
 				button.special:hover:active,
 				.button.special:hover:active {
-					background-color: #287e6d;
+					background-color: rgba(150,25,25,1);
 				}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
